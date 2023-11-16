@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.calculator-whole{
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 3px 4px 15px 0 rgba(156, 33, 61, 0.5);
+    transition: 0.2s;
+    font-size: 0;
+}
+.calculator-whole:hover{
+    box-shadow: 5px 8px 15px 0 rgba(156, 33, 61, 0.5);
+}
+.calculator-head #result{ /*without including id here the calculator box won't work*/
+    width: 380px;
+    height: 120px;
+    padding: 0 8px;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.calculator-body .btn{
+    width: 100px;
+    height: 78px;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: #1f2326;
+    color: white;
+}
+.btn.btn-style{
+    background-color: slateblue;
+}
+.btn:hover {
+    background-color: coral;
+}
+.btn.btn-style-2{
+    background-color: yellowgreen;
+}
+.btn.btn-style-2:hover{
+    background-color: coral;
+}
